@@ -9,7 +9,7 @@ module Capybara
             elsif ENV['poltergesit']
               Capybara.javascript_driver = :poltergeist
             else
-              Capybara.javascript_driver = Capybara::DriverSwitch.default
+              Capybara.javascript_driver = Capybara::SwitchDriver.default
             end
           end
         end
