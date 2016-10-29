@@ -1,4 +1,4 @@
-require 'rspec/support'
+require 'rspec/core'
 module Capybara
   module DriverSwitch
     module Setting
